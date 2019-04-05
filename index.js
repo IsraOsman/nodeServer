@@ -3,7 +3,7 @@ var config = require('./config.js');
 var Twitter = new Twit(config);
 var tweetSearch = function() {
     var params = {
-      q: 'trump',
+      q: 'nasa',
       result_type: 'recent',
       lang: 'en'    
     } 
